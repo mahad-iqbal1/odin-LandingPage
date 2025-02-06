@@ -17,6 +17,7 @@ body {
     width: 70%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -30,13 +31,6 @@ body {
     background-color: #1F2937;
     justify-content: center;
     padding: 100px 0px;
-}
-
-.hero-container {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .content {
@@ -66,11 +60,50 @@ button.signup {
 }
 
 .image-placeholder {
-    background-color: darkgrey;
+    background-color: gray;
     padding: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.information {
+    padding: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.info-main-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 45px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: 160px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+.image-subtext {
+    font-size: 18px;
+    color: #1F2937;
+    margin-top: 15px;
 }
 
 a,
