@@ -106,6 +106,79 @@ button.signup {
     margin-top: 15px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-container {
+    width: 55%;
+}
+
+.quote-main-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-secondary-text {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 60px 100px;
+    border-radius: 10px;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.cta-secondary-text {
+    color: white;
+}
+
+button.cta-signup {
+    background: #3882F6;
+    border: 2px solid white;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+
 a,
 a:link,
 a:visited,
